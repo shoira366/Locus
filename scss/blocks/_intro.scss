@@ -1,0 +1,47 @@
+.intro {
+    margin-top: 105px;
+    & .container {
+        display: flex;
+        align-items: center;
+    }
+
+    & .container::after {
+        content: "";
+        width: 723px;
+        height: 723px;
+        display: inline-block;
+
+        background-image: url('../images/equipment.png'), url('../images/background.svg');
+        background-repeat: no-repeat;
+        background-size: 723px 723px;
+        background-position: center center;
+        margin-left: auto;
+    }
+
+    &__title {
+        width: 742px;
+        margin-bottom: 50px;
+    }
+
+    &__text {
+        width: 656px;
+        margin-bottom: 50px;
+    }
+
+    &__link {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 37px;
+        color: #FFFFFF;
+        background: #58A9A5;
+        border-radius: 20px 20px 20px 0px;
+        padding: 21px 83px 21px 90px;
+        border: 3px solid transparent;
+        &:hover {
+            color: #58A9A5;
+            border: 3px solid #58A9A5;
+            background: #fff;
+        }
+    }
+}

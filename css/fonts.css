@@ -1,0 +1,43 @@
+@font-face {
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     src: local(''),
+          url('../fonts/poppins-v15-latin-regular.woff2') format('woff2'),
+          url('../fonts/poppins-v15-latin-regular.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 500;
+     src: local(''),
+          url('../fonts/poppins-v15-latin-500.woff2') format('woff2'),
+          url('../fonts/poppins-v15-latin-500.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 700;
+     src: local(''),
+          url('../fonts/poppins-v15-latin-700.woff2') format('woff2'),
+          url('../fonts/poppins-v15-latin-700.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 800;
+     src: local(''),
+          url('../fonts/poppins-v15-latin-800.woff2') format('woff2'),
+          url('../fonts/poppins-v15-latin-800.woff') format('woff');
+}
+@font-face {
+     font-family: 'Port Lligat Sans';
+     font-style: normal;
+     font-weight: 400;
+     src: local(''),
+          url('../fonts/port-lligat-sans-v11-latin-regular.woff2') format('woff2'),
+          url('../fonts/port-lligat-sans-v11-latin-regular.woff') format('woff');
+   }

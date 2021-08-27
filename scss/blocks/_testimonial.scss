@@ -1,0 +1,104 @@
+.testimonial {
+    & .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    margin-top: 250px;
+
+    &__title {
+        margin-bottom: 22px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+
+        &--item:not(:last-child) {
+            margin-right: 90px;
+        }
+    }
+
+    &__wrapper{
+        display: flex;
+        margin-top: 62px;
+        &::before{
+            content: "";
+            width: 615px;
+            height: 700px;
+            display: inline-block;
+
+            background-image: url('../images/чёрная-девушка.png');
+            background-repeat: no-repeat;
+            background-size: 615px 700px;
+        }
+    }
+
+    &__box {
+        position: relative;
+        width: 997px;
+        height: 700px;
+        background: #CCF0E6;
+        padding-top: 51px;
+        padding-left: 107px;
+
+    }
+
+    &__box-top {
+        display: flex;
+    }
+
+
+    &__text {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 105px;
+
+        color: #58A9A5;
+    }
+
+    &--span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 60px;
+        color: #58A9A5;
+    }
+
+    &__block {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 37px;
+
+        color: #486958;
+        width: 752px;
+        margin-top: 122px;
+    }
+
+    &__span {
+        font-family: 'Port Lligat Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 300px;
+        line-height: 321px;
+
+        color: #FFFFFF;
+        position: absolute;
+        top: 285px;
+        left: 46px;
+    }
+}
+
+.span {
+    margin-right: 117px;
+}
+
+.roscoe {
+    color: #58A9A5;
+    margin-top: 50px;
+    display: inline-block;
+}

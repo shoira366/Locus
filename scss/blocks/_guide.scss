@@ -1,0 +1,36 @@
+.guide {
+    & .container {
+        display: flex;
+        padding-left: 0;
+        &::before {
+            content: "";
+            width: 642px;
+            height: 650px;
+            display: inline-block;
+
+            background-image: url('../images/living-room.png');
+            background-repeat: no-repeat;
+            background-size: 642px 650px;
+            margin-right: 145px;
+        }
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 60px;
+        color: #1C2323;
+        width: 466px;
+        margin-bottom: 50px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 45px;
+        color: #486958;
+        width: 615px;
+    }
+}

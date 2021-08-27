@@ -1,0 +1,82 @@
+.footer {
+    margin-bottom: 240px;
+    margin-top: 240px;
+
+    & .container {
+        display: flex;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 37px;
+        color: #486958;
+        width: 398px;
+        margin-bottom: 37px;
+    }
+
+    &__form {
+        margin-left: 105px;
+        border: 1px solid #486958;
+        box-sizing: border-box;
+        width: 1109px;
+        height: 450px;
+        padding: 57px 55px 35px 55px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__line {
+        border: 1px solid #000000;
+        width: 1000px;
+        height: 0;
+        background: #000000;
+    }
+
+    &__input {
+        height: 30px;
+        border: none;
+        outline: none;
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    &__input::placeholder {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 37px;
+        color: #486958;
+        margin-bottom: 25px;
+    }
+
+    &__btn {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 37px;
+        color: #FFFFFF;
+        background: #58A9A5;
+        border-radius: 20px 20px 20px 0px;
+        padding: 21px 73px;
+        width: 271px;
+        margin-top: 20px;
+        margin-left: auto;
+        border: 3px solid transparent;
+
+        &:hover {
+            color: #58A9A5;
+            border: 3px solid #58A9A5;
+            background: #fff;
+        }
+    }
+}
+
+.first-line {
+    margin-bottom: 57px;
+}
+
+.second-line {
+    margin-bottom: 37px;
+}

@@ -1,0 +1,77 @@
+.project {
+    margin-top: 120px;
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        margin-bottom: 51px;
+    }
+
+    & .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__list {
+        margin-top: 79px;
+        display: flex;
+        &--item:not(:last-child){
+            display: flex;
+            flex-direction: column;
+            margin-right: 116px;
+        }
+        &--title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 60px;
+            color: #58A9A5;
+            margin-bottom: 5px;
+        }
+
+        &--text {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #486958;
+            width: 453px;
+        }
+    }
+}
+.first-item::after{
+    content: "";
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+
+    background-image: url('../images/livingroom.png');
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    margin-top: 35px;
+}
+.second-item::before{
+    content: "";
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+
+    background-image: url('../images/workspace.png');
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    margin-bottom: 35px;
+}
+.third-item::after{
+    content: "";
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+
+    background-image: url('../images/library.png');
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    margin-top: 35px;
+}
